@@ -1,0 +1,196 @@
+/********************************* TAG SELECTORS *********************************/
+body {
+    margin: 0px;
+    background-color: #f6f5f5;
+    font-family:  'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+div {
+    position: relative;
+}
+
+h1 {
+    color: #276678;
+    margin: 0px;
+    margin-top: 30px;
+    font-family: 'Parisienne', cursive;
+    font-size: 5.5rem;    /* 100% = 16px = 1em, 500% ~ 90px ~ 5em */
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #276678;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #1687a7;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #276678;
+}
+
+img {
+    display: inline-block;
+}
+
+hr {
+    margin: 50px auto;
+    background-color: #f6f5f5;
+    border-style: dotted none none none;
+    border-color: #1687a7;
+    border-width: 2px;
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/********************************* CLASS SELECTORS *********************************/
+.header-bar {
+    background-color: #1687a7;
+    padding: 20px 0px;
+}
+
+.footer-bar {
+    background-color: #1687a7;
+    margin: 0px;
+}
+
+.top-container {
+    background-color: aliceblue;
+    position: relative;
+    padding-top: 120px;
+}
+
+.middle-container {
+    margin-top: 60px;
+}
+
+.bottom-container {
+    margin-top: 60px;
+}
+
+.subtitle {
+    color: #276678;
+    margin: 20px;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.skill-row {
+    display: block;
+    margin: 50px 0px;
+}
+
+.contact-me {
+    margin-bottom: 100px;
+}
+
+.paragraph{
+    display: inline-block;
+    width: 400px;
+}
+
+.p-title {
+    margin: 0px 0px 15px 0px;
+    text-align: left;
+    line-height: 2;
+}
+
+.p-body {
+    margin: 0px;
+    text-align: left;
+    line-height: 2;
+}
+
+.footer-link {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 2;
+    width: 100px;
+    color: #f6f5f5;
+    margin-bottom: 20px;
+}
+
+.cloud1-img {
+    position: absolute ;
+    top: 50px;
+    right: 300px;
+}
+
+.cloud2-img {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.mountain-img {
+    object-position: 50% 50%;
+}
+
+.skill1-photo {
+    margin-right: 50px;
+    height: 90px;
+    width: 90px;
+}
+
+.skill2-photo {
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.avatar-photo {
+    background-color: #d3e0ea;
+    border-radius: 45%;
+    height: 150px;
+    width: 150px;
+}
+
+.btn {
+    background: #1687a7;
+    background-image: -webkit-linear-gradient(top, #1687a7, #276678);
+    background-image: -moz-linear-gradient(top, #1687a7, #276678);
+    background-image: -ms-linear-gradient(top, #1687a7, #276678);
+    background-image: -o-linear-gradient(top, #1687a7, #276678);
+    background-image: -webkit-gradient(to bottom, #1687a7, #276678);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 110px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #276678, #1687a7);
+    background-image: -moz-linear-gradient(top, #276678, #1687a7);
+    background-image: -ms-linear-gradient(top, #276678, #1687a7);
+    background-image: -o-linear-gradient(top, #276678, #1687a7);
+    background-image: -webkit-gradient(to bottom, #276678, #1687a7);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+ }
